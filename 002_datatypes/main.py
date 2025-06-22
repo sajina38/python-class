@@ -26,7 +26,7 @@ data = b"binary"    # bytes
 #         'hobbies':["Coding"]
 #     }
 # ]
- 
+
 # print (data[2]['hobbies'][0])
 
 
@@ -39,6 +39,5 @@ data = b"binary"    # bytes
 #         }]
 #     }
 # ]
- 
-# print (data[0]['hobbies'] [1] ['interest'] [0])
 
+# print (data[0]['hobbies'] [1] ['interest'] [0])
