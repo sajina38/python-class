@@ -13,4 +13,4 @@ class Teacher:
 # Create teachers
 teacher1 = Teacher("Ram")
 teacher2 = Teacher("Sita")
-printTeacher.get_total())
+print(Teacher.get_total())
