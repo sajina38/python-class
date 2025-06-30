@@ -8,4 +8,5 @@ def student_data(student_id, student_name=None, student_class=None):
     if student_class:
         print("Student Class:", student_class)
 
+
 student_data(101, "Sajina", "BIT")

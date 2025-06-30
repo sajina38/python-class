@@ -8,5 +8,5 @@ def unique_numbers(sequence):
         return False
 
 
-print(unique_numbers([2, 4, 5, 8]))      
-print(unique_numbers([2, 2, 5, 8]))  
+print(unique_numbers([2, 4, 5, 8]))
+print(unique_numbers([2, 2, 5, 8]))

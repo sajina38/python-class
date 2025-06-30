@@ -9,3 +9,12 @@ print(content_with_key_value)
 for key, value in content_with_key_value:
     print(key, value)
     print(type(key))
+
+a = float(input("first num: "))
+b = float(input("first num: "))
+
+sum = a + b
+print(f"Sum: {sum}")
+
+product = a * b
+print(f"Product: {product}")

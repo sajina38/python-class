@@ -5,16 +5,16 @@ Add a new fruit to the list using the append() method and print the updated list
 """
 
 
-# fav_fruits = ['apple', 'grapes', 'banana', 'peach', 'mango']
+fav_fruits = ['apple', 'grapes', 'banana', 'peach', 'mango']
 
-# print(f"My favorite fruits: {fav_fruits}")
-# print(f"First fruit: {fav_fruits[0]}")
-# print(f"Last fruit: {fav_fruits[-1]}")
+print(f"My favorite fruits: {fav_fruits}")
+print(f"First fruit: {fav_fruits[0]}")
+print(f"Last fruit: {fav_fruits[-1]}")
 
-# fav_fruits.append("strawberry")
-# fav_fruits.insert(3, "lychee")
-# fav_fruits.remove("banana")
-# print(f"Updated list: {fav_fruits}")
+fav_fruits.append("strawberry")
+fav_fruits.insert(3, "lychee")
+fav_fruits.remove("banana")
+print(f"Updated list: {fav_fruits}")
 
 
 """ Ask the user to input two numbers (use input()). Then:
@@ -26,7 +26,7 @@ Make sure to convert the inputs to numbers (use float() or int()) so you can do 
 
 
 a = float(input("first num: "))
-b = float(input("first num: "))
+b = float(input("second num: "))
 
 sum = a + b
 print(f"Sum: {sum}")

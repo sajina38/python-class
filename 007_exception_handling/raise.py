@@ -8,4 +8,3 @@ if divisor == 0:
 
 result = divident / divisor
 print("The result is", result)
-
